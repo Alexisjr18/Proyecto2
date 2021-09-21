@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo5.css">
+    <link rel="shortcut icon" href="http://mysite.com/favicon.ico">
+    <title>ejemplo</title>
+</head>
+<body>
+    <br>
+    <br>
+    <center><h1>Ejemplo de dialogo en HTTP</h1></center>
+    <br>
+    <br>
+
+    <p align="center">
+        Se abre una conexión al host www.midominio.cu, puerto 80 que es el puerto por defecto para HTTP.
+        <br>
+        <br>
+        <center>
+            <h3>
+                Esquema de forma simple, funcionamiento de protocolo HTTP.
+            </h3>
+        </center>
+        <br>
+    </p>
+    <br>
+    <br>
+    
+    <center>
+        <img src="img/esquema.gif" height="200" width="400" alt="ALT TEXT">
+    </center>
+    <br>
+    <br>
+    <p align="center">
+        Se envía un mensaje en el estilo siguiente:
+        <br>
+        <br>
+        GET /index.html HTTP/1.1<br>
+        Host: www.midominio.cu<br>
+        User-Agent: nombre-cliente<br>
+        [Línea en blanco]<br>
+        <br>
+        <br>
+        La respuesta del servidor está formada por encabezados seguidos del recurso solicitado,
+        <br>
+        en el caso de una página web:
+        <br>
+        HTTP/1.1 200 OK<br>
+        Date: Fri, 31 Dec 2003 23:59:59 GMT<br>
+        Content-Type: text/html<br>
+        Content-Length: 1221<br>
+        <br>
+        <br>
+        <html><br>
+        <body><br>
+            <center>
+        <h1>Página principal de tuHost</h1><br>
+        (Contenido)<br>
+        <br>
+        <br>
+        ...........<br>
+        ..........'<br>
+        </body><br>
+        </html><br>
+            </center>
+        <br>
+        <br>
+    </p>
+
+
+    <center>
+        <img src="img/f3.jpg" width="400" height="400" alt="ALT TEXT">
+    </center>
+
+<br>
+<br>
+<br>
+    <center>
+        <a class="boton" href="inicio.html">Menú principal</a>
+    </center>
+    <p align="left">
+        <a class="atras" href="versiones.html">Atrás</a>
+    </p>
+    <p align="right">
+        <a class="siguiente" href="diferencias.html">Siguiente página</a>
+    </p>
+<br>
+<br>  
+</body>
+</html>
